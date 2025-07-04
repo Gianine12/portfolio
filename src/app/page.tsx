@@ -1,103 +1,83 @@
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="w-full min-h-screen bg-[linear-gradient(to_top,_#0F172A,_#1E3A8A,_#F43F5E)]">
+      <div className="min-h-screen">
+        <header className="text-center p-10">
+          <img
+            src="/Gianine.jpg"
+            alt="Foto de Gianine Rosa Barbosa Cirilo"
+            className="w-45 h-45 mx-auto rounded-full border-4 border-[var(--color-emphasisAndLinks)] hover:border-[var(--color-alertAndAnimation)] transition-all duration-300 shadow-lg"
+          />
+          <h1 className="!text-7xl font-bold text-[var(--color-textMain)]" >Gianine Rosa Barbosa Cirilo</h1>
+          <h2 className="!text-2xl font-bold text-[var(--color-textMain)]">Desenvolvedor Full Stack </h2>
+          <h3 className="text-[var(--color-textMain)]">Python | Node | JavaScript | ReactJs | Postgres | Redis | Docker | NestJS | Mongo</h3>
+          <h4><i>Em Transição para Machine Learning</i></h4>
+        </header>
+        <menu className="mt-24 text-center">
+          <a className="text-2xl font-bold mr-8 p-2 text-[var(--color-emphasisAndLinks)] hover:text-[var(--color-alertAndAnimation)] transition-colors duration-250" href="#sobreMim">Sobre Mim</a>
+          <a className="text-2xl font-bold mr-8 p-2 text-[var(--color-emphasisAndLinks)] hover:text-[var(--color-alertAndAnimation)] transition-colors duration-250" href="#projetos">Projetos</a>
+          <a className="text-2xl font-bold mr-8 p-2 text-[var(--color-emphasisAndLinks)] hover:text-[var(--color-alertAndAnimation)] transition-colors duration-250" href="/blog">Blog Pessoal</a>
+        </menu>
+      </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+
+      <div id='sobreMim' className="min-h-screen">
+        <div className="p-12">
+          <h2 className="!text-2xl font-bold text-[var(--color-textMain)]">Sobre Mim</h2>
+          <p className="mt-4">
+            Olá! Me chamo <i className="text-[var(--color-textMain)]">Gianine Rosa Barbosa Cirilo</i> e sou desenvolvedor full stack apaixonado por tecnologia e por resolver problemas reais através do código. 
+            Desde o início da minha jornada, busco unir solidez técnica com empatia e criatividade — criando soluções que sejam funcionais, acessíveis e relevantes para quem usa.
+          </p>
+        </div>
+        <div className="p-10">
+          <h2 className="!text-2xl font-bold text-[var(--color-textMain)]">Experiência profissional</h2>
+          <p className="mt-4">
+            Iniciei minha carreira com um estágio de 1 ano e 8 meses na S&A Comércio e Automação LTDA, onde atuei com C# em aplicações desktop utilizando Windows Forms e 
+            banco de dados SQL Server. Essa experiência me ensinou a importância de um código limpo, confiável e fácil de manter em sistemas robustos.
+          </p>
+          <p className="mt-4">
+            InDepois disso, atuei por 1 ano e 2 meses como desenvolvedor full stack na DataTypes Sistemas, onde trabalhei com Python (Django), 
+            React.js, Node.js, sistemas Linux, MongoDB e PostgreSQL. Foi um período de crescimento intenso, em que desenvolvi aplicações completas com foco em desempenho, 
+            experiência do usuário e boas práticas de desenvolvimento.
+          </p>
+          <p className="mt-4">
+            Atuei na Planetfone com um stack ainda mais desafiador: PHP, React, Node.js com NestJS, Redis, Docker, MongoDB, PostgreSQL e filas assíncronas usando BullMQ. 
+            Aqui, aprofundei meus conhecimentos em arquitetura escalável, integração contínua e microsserviços.
+          </p>
+        </div>
+        <div className="p-10">
+          <h2 className="!text-2xl font-bold text-[var(--color-textMain)]">Formação</h2>
+          <p className="mt-4">
+            Sou formado pela Kenzie Academy Brasil, em um programa intensivo de desenvolvimento web full stack com carga horária integral e 
+            atualmente estou cursando o 2º período de Ciência da Computação — sempre buscando crescer com base sólida, aprendizado contínuo e colaboração.
+          </p>
+        </div>     
+      </div>
+
+      <main id="projetos" >
+        <h1 className="text-center !text-5xl font-bold text-[var(--color-textMain)]">Projetos</h1>
+        <div className="mt-24 !flex flex-row flex-wrap gap-8 justify-center">
+          <h1 className="text-center !text-5xl "> Em construcao</h1>
+          {/* <Card/>
+          <Card/>
+          <Card/> */}
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+      <footer className="bg-[#0F172A] text-[var(--color-secondEmpashisAndDescription)] px-8 py-12 mt-32 text-sm text-center">
+        <p className="mb-4">
+          Sou desenvolvedor full stack, com experiência prática em projetos reais usando Python, Node.js e React. <br />
+          Formado pela Kenzie Academy e estudante de Ciência da Computação, sigo aprendendo todos os dias. <br />
+          Atualmente, estou mergulhando no universo do Machine Learning com o mesmo entusiasmo que comecei no código.
+        </p>
+
+        <div className="flex justify-center gap-6 mt-6 text-[var(--color-emphasisAndLinks)]">
+          <a href="mailto:gianine1508@gmail.com" className="hover:underline">Email</a>
+          <a href="https://github.com/Gianine12" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>
+          <a href="https://www.linkedin.com/in/gianine1508" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a>
+        </div>
       </footer>
+
     </div>
   );
 }
