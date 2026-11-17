@@ -1,0 +1,15 @@
+{
+  "header": {
+    "home": "Início",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "download_curriculo": "Download Curriculo"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou ",
+    "name": "Gianine",
+    "role": "Desenvolvedor Full Stack",
+    "description": "Desenvolvendo soluções e experiências digitais."
+  }
+}

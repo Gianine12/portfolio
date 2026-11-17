@@ -1,0 +1,13 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "role": "Full Stack Developer",
+    "description": "Building digital solutions and experiences."
+  }
+}
