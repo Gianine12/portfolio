@@ -15,7 +15,7 @@ export function About() {
                     <div className="border-2 mb-4 border-gold-dark text-gold-light w-28 text-center rounded-xl">
                         <p>{t("hero.greeting")}</p>
                     </div>
-                    <div className="text-2xl font-semibold mb-4 border-b-2  border-gold-dark w-fit">
+                    <div className="text-4xl font-semibold mb-4 border-b-2  border-gold-dark w-fit">
                         <p>{t("about.i_am")}</p>
                     </div>
                     <div className="w-310 text-justify">

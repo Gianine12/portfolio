@@ -30,8 +30,47 @@
     "subtitle": "Tecnologias e ferramentas com as quais trabalho.",
     "front":"Fronted",
     "backend":"Backend",
-    "api": "APIs & Integration",
-    "data": "Data & Messaging",
-    "tools": "Tools & Workflow"
+    "api": "APIs & Integração",
+    "data": "Banco de dados & Mensageria",
+    "tools": "Ferramentas e fluxo de trabalho",
+    "data_skills_1": "PostgreSQL . SQL",
+    "data_skills_2": "Apache Kafka",
+    "data_skills_3": "BullMQ",
+    "data_skills_4": "SQLAlchemy",
+    "api_skills_1": "REST APIs",
+    "api_skills_2": "Integração de serviços",
+    "api_skills_3": "WebSockets",
+    "tools_skills_1": "Docker",
+    "tools_skills_2": "Git",
+    "backend_skills_1": "Node.js . NestJS",
+    "backend_skills_2": "Express.js",
+    "backend_skills_3": "Python . Django",
+    "front_skills_1": "Reac.js",
+    "front_skills_2": "Next.js",
+    "front_skills_3": "JavaScript",
+    "front_skills_4": "HTML . CSS",
+    "front_skills_5": "Tailwindcss"
+  },
+  "projects": {
+    "greeting": "Meus Projetos",
+    "title": "Projetos em destaque"
+  },
+  "contact": {
+    "greeting": "Vamos Conversar",
+    "title": "Entre em contato",
+    "description": "Tem uma ideia, proposta ou apenas que dizer um ola? Me envie uma mensagem!",
+    "email": "gianine1508@gmail.com",
+    "cel" : "(31) 9 8264-6513",
+    "location": "Belo Horizonte, MG",
+    "button": "Enviar mensagem",
+    "sending": "Enviando...",
+    "form_name": "Nome",
+    "form_email": "Email",
+    "form_message": "Mensagem"
+  },
+  "footer": {
+    "name": "Gianine R.B.C",
+    "copyright": "\u00A9",
+    "copyright_continue": "Todos os direitos reservados."
   }
 }

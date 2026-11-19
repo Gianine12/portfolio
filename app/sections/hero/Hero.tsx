@@ -16,7 +16,7 @@ export function Hero(){
                         <p className="text-gold font-bold text-9xl border-b-4 w-fit">{t("hero.name_last_name")}</p>
                     </div>
                     <div className="mt-4">
-                        <p className="font-bold text-2xl">{t("hero.role")}</p>
+                        <p className="font-bold text-4xl">{t("hero.role")}</p>
                     </div>
                     <div className="w-240 mt-4 text-justify">
                         <p>{t("hero.description")}</p>

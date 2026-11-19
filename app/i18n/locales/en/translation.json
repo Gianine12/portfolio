@@ -14,5 +14,63 @@
     "description": "I am a Full Stack developer with professional experience in building, maintaining, and evolving web applications. I work on API development, platform integrations, and systems that connect various services and technologies.",
     "description2": "I have experience with Node.js, NestJS, React, databases, and asynchronous processing. Currently, I am deepening my knowledge of Python and exploring Machine Learning, with the goal of developing increasingly intelligent, data-driven solutions.",
     "language": "Choose your preferred language"
+  },
+  "about": {
+    "greeting":"About Me",
+    "i_am": "Who am I?",
+    "description": "My path in technology began with a desire to understand how things work and how to transform ideas into solutions. Throughout my professional journey, I discovered that software development is a field that combines logic, creativity, and continuous learning.",
+    "description2": "I have worked professionally on the development, maintenance, and evolution of web applications, participating in projects that ranged from building user interfaces to developing APIs, integrating platforms, and processing data. Along the way, I have worked with technologies such as Node.js, NestJS, React, Python, Django, and PostgreSQL, as well as tools like Kafka, BullMQ, WebSockets, and Docker.",
+    "description3": "These experiences have exposed me to various software engineering challenges—particularly in system integration, the maintenance of existing applications, and the development of multichannel communication solutions. I have learned the importance of fully understanding a problem before considering its implementation, writing sustainable code, and carefully weighing the architecture behind every solution.",
+    "description4": "Currently, I continue to expand my expertise by deepening my studies in Python and exploring areas such as Machine Learning and Artificial Intelligence. My goal is to grow as a software engineer, develop increasingly robust and intelligent solutions, and translate technical knowledge into products that deliver real value.",
+    "experience":""
+  },
+  "skills": {
+    "my_skills": "My skills",
+    "title": "Technologies I have mastered",
+    "subtitle": "Technologies and tools I work with.",
+    "front":"Fronted",
+    "backend":"Backend",
+    "api": "APIs & Integration",
+    "data": "Data & Messaging",
+    "tools": "Tools & Workflow",
+    "data_skills_1": "PostgreSQL . SQL",
+    "data_skills_2": "Apache Kafka",
+    "data_skills_3": "BullMQ",
+    "data_skills_4": "SQLAlchemy",
+    "api_skills_1":"REST APIs",
+    "api_skills_2":"Service Integration",
+    "api_skills_3":"WebSockets",
+    "tools_skills_1": "Docker",
+    "tools_skills_2": "Git",
+    "backend_skills_1": "Node.js . NestJS",
+    "backend_skills_2": "Express.js",
+    "backend_skills_3": "Python . Django",
+    "front_skills_1": "Reac.js",
+    "front_skills_2": "Next.js",
+    "front_skills_3": "JavaScript",
+    "front_skills_4": "HTML . CSS",
+    "front_skills_5": "Tailwindcss"
+  },
+   "projects": {
+    "greeting": "My Projects",
+    "title": "Featured projects"
+  },
+  "contact": {
+    "greeting": "Let's talk",
+    "title": "Get in touch",
+    "description": "Have an idea, a proposal, or just want to say hello? Send me a message!",
+    "email": "gianine1508@gmail.com",
+    "cel" : "(31) 9 8264-6513",
+    "location": "Belo Horizonte, MG",
+    "button": "Send message",
+    "sending": "Sending...",
+    "form_name": "Name",
+    "form_email": "Email",
+    "form_message": "Message"
+  },
+  "footer": {
+    "name": "Gianine R.B.C",
+    "copyright": "\u00A9",
+    "copyright_continue": "All rights reserved."
   }
 }
