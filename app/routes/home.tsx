@@ -1,5 +1,8 @@
 import { Header } from "~/sections/header/Header";
 import type { Route } from "./+types/home";
+import { Hero } from "~/sections/hero/Hero";
+import { About } from "~/sections/about/About";
+import { Skills } from "~/sections/skills/Skills";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -12,6 +15,11 @@ export default function Home() {
   return (
     <div>
       <Header/>
+      <Hero/>
+      <div className="w-[1905px] h-236 bg-linear-to-bl from-card to-deep">
+        <About/>
+        <Skills/>
+      </div>
     </div>
   )    
 }

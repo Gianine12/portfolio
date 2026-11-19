@@ -3,11 +3,16 @@
     "home": "Home",
     "about": "About",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "download_curriculo": "Download CV"
   },
   "hero": {
     "greeting": "Hello, I'm",
+    "name": "Gianine R.B.C",
+    "name_last_name":"Gianine",
     "role": "Full Stack Developer",
-    "description": "Building digital solutions and experiences."
+    "description": "I am a Full Stack developer with professional experience in building, maintaining, and evolving web applications. I work on API development, platform integrations, and systems that connect various services and technologies.",
+    "description2": "I have experience with Node.js, NestJS, React, databases, and asynchronous processing. Currently, I am deepening my knowledge of Python and exploring Machine Learning, with the goal of developing increasingly intelligent, data-driven solutions.",
+    "language": "Choose your preferred language"
   }
 }

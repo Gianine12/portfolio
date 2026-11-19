@@ -4,12 +4,34 @@
     "about": "Sobre",
     "projects": "Projetos",
     "contact": "Contato",
-    "download_curriculo": "Download Curriculo"
+    "download_curriculo": "Baixar CV"
   },
   "hero": {
     "greeting": "Olá, eu sou ",
-    "name": "Gianine",
+    "name": "Gianine R.B.C",
+    "name_last_name":"Gianine",
     "role": "Desenvolvedor Full Stack",
-    "description": "Desenvolvendo soluções e experiências digitais."
+    "description": "Sou desenvolvedor Full Stack com experiência profissional na construção, manutenção e evolução de aplicações web. Trabalho com desenvolvimento de APIs, integrações entre plataformas e sistemas que conectam diferentes serviços e tecnologias.",
+    "description2": "Tenho experiência com Node.js, NestJS, React, bancos de dados e processamento assíncrono. Atualmente, estou aprofundando meus conhecimentos em Python e explorando Machine Learning, com o objetivo de desenvolver soluções cada vez mais inteligentes e orientadas a dados.",
+    "language": "Escolha seu idioma de preferência"
+  },
+  "about": {
+    "greeting":"Sobre min",
+    "i_am": "Quem eu sou?",
+    "description": "Minha trajetória na tecnologia começou com o interesse em entender como as coisas funcionam e como transformar ideias em soluções. Ao longo da minha jornada profissional, encontrei no desenvolvimento de software uma área que une lógica, criatividade e aprendizado constante.",
+    "description2": "Atuei profissionalmente no desenvolvimento, manutenção e evolução de aplicações web, participando de projetos que envolviam desde a construção de interfaces até o desenvolvimento de APIs, integrações entre plataformas e processamento de dados. Nesse percurso, trabalhei com tecnologias como Node.js, NestJS, React, Python, Django e PostgreSQL, além de ferramentas como Kafka, BullMQ, WebSockets e Docker.",
+    "description3": "Essas experiências me proporcionaram contato com diferentes desafios de engenharia de software, especialmente na integração de sistemas, manutenção de aplicações existentes e desenvolvimento de soluções de comunicação multicanal. Aprendi a importância de compreender o problema antes de pensar na implementação, escrever código sustentável e considerar a arquitetura por trás de cada solução.",
+    "description4": "Atualmente, continuo expandindo meus conhecimentos, aprofundando meus estudos em Python e explorando áreas como Machine Learning e Inteligência Artificial. Meu objetivo é evoluir como engenheiro de software, desenvolver soluções cada vez mais robustas e inteligentes e transformar conhecimento técnico em produtos que gerem valor real.",
+    "experience":""
+  },
+  "skills": {
+    "my_skills": "Minhas Habilidades",
+    "title": "Tecnologias que dominio",
+    "subtitle": "Tecnologias e ferramentas com as quais trabalho.",
+    "front":"Fronted",
+    "backend":"Backend",
+    "api": "APIs & Integration",
+    "data": "Data & Messaging",
+    "tools": "Tools & Workflow"
   }
 }
